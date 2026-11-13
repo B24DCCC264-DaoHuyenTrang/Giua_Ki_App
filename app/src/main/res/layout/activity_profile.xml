@@ -65,7 +65,7 @@
                     android:layout_height="64dp"
                     android:background="@drawable/bg_circle_avatar"
                     android:gravity="center"
-                    android:text="K"
+                    android:text="T"
                     android:textColor="@color/white"
                     android:textSize="28sp"
                     android:textStyle="bold" />
@@ -81,7 +81,7 @@
                         android:id="@+id/tvProfileName"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Khánh"
+                        android:text="Trang"
                         android:textColor="@color/text_primary"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -91,7 +91,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                        android:text="khanh@example.com"
+                        android:text="trang@example.com"
                         android:textColor="@color/text_secondary"
                         android:textSize="14sp" />
 

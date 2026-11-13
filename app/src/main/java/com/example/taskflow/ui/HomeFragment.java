@@ -109,7 +109,7 @@ public class HomeFragment extends Fragment {
     private void loadData() {
         SharedPreferences prefs = requireContext()
                 .getSharedPreferences("profile", android.content.Context.MODE_PRIVATE);
-        String name = prefs.getString("name", "Khánh");
+        String name = prefs.getString("name", "Trang");
 
         int hour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
         int greetingRes;
