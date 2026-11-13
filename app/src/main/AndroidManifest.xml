@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PersonalTaskManager">
+
+        <!-- Màn hình chính: Bottom Navigation với 4 tab
+             (Tổng quan, Công việc, Thống kê, Cá nhân) -->
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Thêm công việc / Chỉnh sửa công việc -->
+        <activity
+            android:name=".ui.AddEditTaskActivity"
+            android:exported="false" />
+
+        <!-- Chi tiết công việc -->
+        <activity
+            android:name=".ui.TaskDetailActivity"
+            android:exported="false" />
+
+        <!-- Cá nhân & Cài đặt (mở bằng avatar "K") -->
+        <activity
+            android:name=".ui.ProfileActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

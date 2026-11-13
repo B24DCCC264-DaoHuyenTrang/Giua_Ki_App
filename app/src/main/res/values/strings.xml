@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TaskFlow</string>
+
+    <!-- Điều hướng -->
+    <string name="nav_home">Tổng quan</string>
+    <string name="nav_tasks">Công việc</string>
+    <string name="nav_calendar">Lịch</string>
+    <string name="nav_stats">Thống kê</string>
+
+    <!-- Màn Tổng quan -->
+    <string name="greeting_morning">Chào buổi sáng, %1$s</string>
+    <string name="greeting_afternoon">Chào buổi chiều, %1$s</string>
+    <string name="greeting_evening">Chào buổi tối, %1$s</string>
+    <string name="home_subtitle">Mỗi ngày mới, thêm vài mục tiêu mới.</string>
+    <string name="hero_title">Tập trung vào\nđiều quan trọng.</string>
+    <string name="hero_tasks_left">Bạn còn %1$d nhiệm vụ cần xử lý hôm nay</string>
+    <string name="hero_focus_next">Tiếp theo: %1$s</string>
+    <string name="hero_all_done">Bạn đã hoàn thành mọi việc hôm nay. Tuyệt vời!</string>
+    <string name="overview_title">Tổng quan</string>
+    <string name="done_tasks">Hoàn tất</string>
+    <string name="doing_tasks">Đang làm</string>
+    <string name="overdue_tasks">Quá hạn</string>
+    <string name="schedule_today">Lịch trình hôm nay</string>
+    <string name="view_calendar">Xem lịch →</string>
+    <string name="empty_today">Hôm nay không có nhiệm vụ nào. Thảnh thơi nhé!</string>
+
+    <!-- Màn Kho công việc -->
+    <string name="tasks_title">Kho công việc</string>
+    <string name="tasks_subtitle">Mọi nhiệm vụ được sắp xếp tại đây.</string>
+    <string name="search_hint">Tìm tên công việc hoặc mô tả</string>
+    <string name="quick_filter_label">Bộ lọc nhanh</string>
+    <string name="filter_all">Tất cả · %1$d</string>
+    <string name="filter_doing">Đang làm</string>
+    <string name="filter_done">Hoàn tất</string>
+    <string name="filter_priority_label">Ưu tiên:</string>
+    <string name="sort_label">Sắp xếp theo hạn gần nhất</string>
+    <string name="empty_tasks">Không tìm thấy nhiệm vụ nào.</string>
+
+    <!-- Màn Lịch -->
+    <string name="calendar_title">Lịch của tôi</string>
+    <string name="calendar_subtitle">Nhìn nhanh công việc theo ngày.</string>
+    <string name="calendar_tasks_count">%1$d công việc · %2$d đã hoàn thành</string>
+    <string name="calendar_empty">Ngày này chưa có nhiệm vụ nào.</string>
+    <string name="add_task_calendar">+ Thêm công việc</string>
+
+    <!-- Màn Phân tích -->
+    <string name="stats_title">Phân tích</string>
+    <string name="stats_subtitle">Một chút tiến bộ mỗi ngày sẽ tạo khác biệt.</string>
+    <string name="completion_rate_label">TỶ LỆ HOÀN THÀNH</string>
+    <string name="completion_rate_sub">%1$d trên %2$d nhiệm vụ đã hoàn tất</string>
+    <string name="stats_overview_title">Tổng quan công việc</string>
+    <string name="total_tasks">Tổng</string>
+    <string name="done_tasks_short">Hoàn thành</string>
+    <string name="todo_tasks_short">Còn lại</string>
+    <string name="chart_title">Năng suất trong tuần</string>
+    <string name="chart_note">Số nhiệm vụ hết hạn mỗi ngày.</string>
+    <string name="tip_title">Gợi ý cho bạn</string>
+    <string name="tip_overdue">Bạn đang có %1$d nhiệm vụ quá hạn. Hãy ưu tiên xử lý chúng trước nhé!</string>
+    <string name="tip_great">Bạn đang duy trì tốc độ tốt. Hãy ưu tiên các nhiệm vụ sắp đến hạn.</string>
+    <string name="tip_keep_going">Bạn mới hoàn thành %1$d%% công việc. Hãy ưu tiên các nhiệm vụ sắp đến hạn.</string>
+    <string name="tip_empty">Chưa có nhiệm vụ nào. Thêm việc đầu tiên để bắt đầu nhé!</string>
+
+    <!-- Màn Cá nhân -->
+    <string name="profile_title">Cá nhân</string>
+    <string name="profile_subtitle">Quản lý thông tin và tùy chọn ứng dụng</string>
+    <string name="edit_profile_link">Chỉnh sửa hồ sơ →</string>
+    <string name="settings_title">Cài đặt ứng dụng</string>
+    <string name="setting_notification">Thông báo</string>
+    <string name="setting_notification_sub">Nhắc nhở về công việc sắp đến hạn</string>
+    <string name="setting_date_format">Định dạng ngày giờ</string>
+    <string name="setting_date_format_sub">DD/MM/YYYY - 24 giờ</string>
+    <string name="setting_backup">Sao lưu dữ liệu</string>
+    <string name="setting_backup_sub">Dữ liệu được lưu trên thiết bị</string>
+    <string name="setting_theme">Giao diện</string>
+    <string name="setting_theme_sub">Sáng</string>
+    <string name="setting_about">Giới thiệu ứng dụng</string>
+    <string name="setting_about_sub">Phiên bản 1.0.0</string>
+    <string name="profile_name_hint">Tên của bạn</string>
+    <string name="profile_email_hint">Email</string>
+    <string name="edit_profile">Chỉnh sửa hồ sơ</string>
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="close">Đóng</string>
+    <string name="error_empty_name">Tên không được để trống</string>
+    <string name="toast_profile_saved">Đã lưu hồ sơ</string>
+    <string name="toast_notification_on">Đã bật thông báo</string>
+    <string name="toast_notification_off">Đã tắt thông báo</string>
+    <string name="toast_date_format">Định dạng hiện tại: DD/MM/YYYY - 24 giờ</string>
+    <string name="toast_theme">Hiện chỉ hỗ trợ giao diện Sáng</string>
+    <string name="toast_backup_empty">Chưa có dữ liệu để sao lưu</string>
+    <string name="toast_backup_done">Đã sao lưu dữ liệu vào:\n%1$s</string>
+    <string name="toast_backup_failed">Sao lưu thất bại, thử lại sau</string>
+    <string name="about_text">TaskFlow — Phiên bản 1.0.0\nỨng dụng quản lý công việc cá nhân.\nXây dựng bằng Android Studio và ngôn ngữ Java.</string>
+
+    <!-- Tạo / Sửa nhiệm vụ -->
+    <string name="add_task">Thêm nhiệm vụ</string>
+    <string name="add_task_title">Tạo nhiệm vụ</string>
+    <string name="edit_task_title">Sửa nhiệm vụ</string>
+    <string name="add_task_subtitle">Ghi lại việc cần làm, để tâm trí nhẹ hơn.</string>
+    <string name="task_title_label">TÊN CÔNG VIỆC</string>
+    <string name="task_title_hint">Ví dụ: Hoàn thành báo cáo môn học</string>
+    <string name="task_description_label">MÔ TẢ / GHI CHÚ</string>
+    <string name="task_description_hint">Thêm chi tiết để bạn không bỏ sót điều gì…</string>
+    <string name="task_due_date_label">HẠN HOÀN THÀNH</string>
+    <string name="task_due_time_label">Giờ</string>
+    <string name="task_priority_label">MỨC ĐỘ ƯU TIÊN</string>
+    <string name="task_status_label">TRẠNG THÁI</string>
+    <string name="task_category_label">DANH MỤC</string>
+    <string name="save_task">Lưu nhiệm vụ</string>
+    <string name="required_note">* Thông tin bắt buộc. Tên công việc không được để trống.</string>
+    <string name="error_empty_title">Tên công việc không được để trống</string>
+    <string name="toast_task_saved">Đã lưu nhiệm vụ</string>
+    <string name="toast_task_updated">Đã cập nhật nhiệm vụ</string>
+
+    <!-- Chi tiết nhiệm vụ -->
+    <string name="detail_title">Chi tiết nhiệm vụ</string>
+    <string name="detail_info_title">Thông tin nhiệm vụ</string>
+    <string name="detail_due_label">Hạn hoàn thành</string>
+    <string name="detail_priority_label">Mức độ ưu tiên</string>
+    <string name="detail_status_label">Trạng thái</string>
+    <string name="detail_category_label">Danh mục</string>
+    <string name="edit">Sửa</string>
+    <string name="mark_done">✓ Đánh dấu hoàn thành</string>
+    <string name="mark_todo">Đánh dấu chưa hoàn thành</string>
+    <string name="delete_task">Xóa công việc</string>
+    <string name="delete_confirm_title">Xóa công việc</string>
+    <string name="delete_confirm_message">Bạn có chắc muốn xóa “%1$s”?</string>
+    <string name="delete_yes">Xóa</string>
+    <string name="toast_marked_done">Đã đánh dấu hoàn thành</string>
+    <string name="toast_marked_todo">Đã chuyển về chưa hoàn thành</string>
+    <string name="toast_task_deleted">Đã xóa công việc</string>
+    <string name="toast_not_found">Không tìm thấy nhiệm vụ</string>
+    <string name="no_description">(Không có mô tả)</string>
+
+    <!-- Mức độ ưu tiên / Trạng thái / Danh mục -->
+    <string name="priority_low">Thấp</string>
+    <string name="priority_medium">Trung bình</string>
+    <string name="priority_high">Cao</string>
+    <string name="priority_low_label">ƯU TIÊN THẤP</string>
+    <string name="priority_medium_label">ƯU TIÊN TRUNG BÌNH</string>
+    <string name="priority_high_label">ƯU TIÊN CAO</string>
+    <string name="status_todo">Chưa hoàn thành</string>
+    <string name="status_done">Đã hoàn thành</string>
+
+    <!-- Lọc theo ưu tiên (Spinner) -->
+    <string-array name="priority_filter">
+        <item>Tất cả</item>
+        <item>Cao</item>
+        <item>Trung bình</item>
+        <item>Thấp</item>
+    </string-array>
+
+    <!-- Danh mục (Spinner) -->
+    <string-array name="task_categories">
+        <item>Học tập</item>
+        <item>Công việc</item>
+        <item>Cá nhân</item>
+        <item>Khác</item>
+    </string-array>
+</resources>
